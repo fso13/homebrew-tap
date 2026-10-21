@@ -4,10 +4,10 @@ cask "radiomac" do
 
   url "https://github.com/fso13/RadioApple/releases/download/v#{version}/RadioMac-#{version}.dmg"
   name "RadioMac"
-  desc "Menu-bar radio player for macOS"
+  desc "Menu-bar internet radio player"
   homepage "https://github.com/fso13/RadioApple"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "RadioMac.app"
 
