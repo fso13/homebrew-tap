@@ -4,12 +4,14 @@ Menu-bar radio player for macOS.
 
 ```bash
 brew tap fso13/tap
+brew trust fso13/tap   # Homebrew 7+
 brew install --cask radiomac
 ```
 
 Or install directly:
 
 ```bash
+brew trust fso13/tap   # Homebrew 7+
 brew install --cask fso13/tap/radiomac
 ```
 
