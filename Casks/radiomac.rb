@@ -1,6 +1,6 @@
 cask "radiomac" do
-  version "1.2.1"
-  sha256 "5f99482700d02cfd077b2d9dc727c9f5150679f34d19e65f76a0783229c87bd5"
+  version "1.3.0"
+  sha256 "e5907dcbf620391845ebd95fc6cedf3c4073821b548d95378d658a0082a3624b"
 
   url "https://github.com/fso13/RadioApple/releases/download/v#{version}/RadioMac-#{version}.dmg"
   name "RadioMac"
